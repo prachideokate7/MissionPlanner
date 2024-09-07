@@ -12,6 +12,9 @@
       <Aliases></Aliases>
     </PackageReference>
 
+
+    <PackageReference Include="SkiaSharp.Views" Version="2.88.8" />
+
     <PackageReference Include="System.IO.Ports" Version="4.7.0" />
   </ItemGroup>
 

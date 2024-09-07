@@ -45,4 +45,8 @@ Please see https://github.com/icsharpcode/SharpZipLib/wiki/Release-1.0 for more 
     <DocumentationFile>bin\Release\net45\ICSharpCode.SharpZipLib.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views" Version="2.80.2" />
+  </ItemGroup>
+
 </Project>

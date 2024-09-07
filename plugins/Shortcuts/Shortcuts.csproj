@@ -15,6 +15,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views" Version="2.80.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\ExtLibs\Utilities\MissionPlanner.Utilities.csproj">
       <Private>false</Private>
     </ProjectReference>

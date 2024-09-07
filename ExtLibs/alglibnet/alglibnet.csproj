@@ -12,5 +12,9 @@
 
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views" Version="2.88.8" />
+  </ItemGroup>
+
 
 </Project>

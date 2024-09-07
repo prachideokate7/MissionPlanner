@@ -68,6 +68,7 @@
 
   <ItemGroup>
     <PackageReference Include="GeoAPI.CoordinateSystems" Version="1.7.5" />
+    <PackageReference Include="SkiaSharp.Views" Version="2.80.2" />
   </ItemGroup>
 
   <ItemGroup>

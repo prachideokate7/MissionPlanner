@@ -19,6 +19,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Mono.Posix.NETStandard" Version="1.0.0" />
+    <PackageReference Include="SkiaSharp.Views" Version="2.80.2" />
   </ItemGroup>
 
 </Project>

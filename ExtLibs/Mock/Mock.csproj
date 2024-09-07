@@ -6,6 +6,10 @@
     <NoWarn>1701;1702;NU1605</NoWarn>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views" Version="2.80.2" />
+  </ItemGroup>
+
 	<ItemGroup>
     <ProjectReference Include="..\MavlinkMessagePlugin\MavlinkMessagePlugin.csproj" />
     <ProjectReference Include="..\Mavlink\MAVLink.csproj" />

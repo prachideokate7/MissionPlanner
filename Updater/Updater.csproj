@@ -85,6 +85,10 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views" Version="2.88.8" />
+    <PackageReference Include="SkiaSharp.Views.Desktop.Common" Version="2.88.8" />
+  </ItemGroup>
   <PropertyGroup>
     <PostBuildEvent>"C:\Program Files (x86)\Windows Kits\10\App Certification Kit\signtool.exe" sign /fd SHA256 /n "Michael Oborne" /t http://timestamp.sectigo.com/ "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>

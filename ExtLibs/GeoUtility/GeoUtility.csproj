@@ -13,4 +13,7 @@
     <Compile Remove="GeoSystem\MapService\Images.cs" />
     <Compile Remove="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views" Version="2.80.2" />
+  </ItemGroup>
 </Project>

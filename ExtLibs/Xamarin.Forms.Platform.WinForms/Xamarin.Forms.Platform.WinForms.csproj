@@ -27,6 +27,7 @@
     <Compile Update="PlatformRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views" Version="2.80.2" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
   </ItemGroup>
 </Project>
